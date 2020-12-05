@@ -33,7 +33,7 @@
     <div class="shadow-bottom"></div>
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-            <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span><span class="badge badge-light-warning badge-pill ml-auto mr-1">2</span></a>
+            <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">{{ __('admin/sidebar.Dashboards') }}</span><span class="badge badge-light-warning badge-pill ml-auto mr-1">2</span></a>
                 <ul class="menu-content">
                     <li><a class="d-flex align-items-center" href="dashboard-analytics.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
                     </li>
@@ -359,7 +359,7 @@
             </li>
             <li class=" nav-item"><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation"><i data-feather="folder"></i><span class="menu-title text-truncate" data-i18n="Documentation">Documentation</span></a>
             </li>
-            <li class=" nav-item"><a class="d-flex align-items-center" href="https://pixinvent.ticksy.com/"><i data-feather="life-buoy"></i><span class="menu-title text-truncate" data-i18n="Raise Support">Raise Support</span></a>
+            <li class=" nav-item"><a class="d-flex align-items-center" href="https://pixinvent.ticksy.com/"><i data-feather="life-buoy"></i><span class="menu-title text-truncate" data-i18n="Raise Support">{{ __('admin/sidebar.RaiseSupport') }}</span></a>
             </li>
         </ul>
     </div>

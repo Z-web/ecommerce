@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="loading" lang="en" data-textdirection="ltr">
+<html class="loading" lang="{{ app()->getLocale() }}" data-textdirection="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
 <!-- BEGIN: Head-->
 
 <head>
@@ -27,22 +27,22 @@
 
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/bootstrap.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/bootstrap-extended.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/colors.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/components.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/themes/dark-layout.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/themes/bordered-layout.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/bootstrap-extended.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/colors.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/components.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/themes/dark-layout.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/themes/bordered-layout.css')}}">
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/core/menu/menu-types/vertical-menu.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/pages/dashboard-ecommerce.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/plugins/charts/chart-apex.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/plugins/extensions/ext-component-toastr.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/core/menu/menu-types/vertical-menu.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/pages/dashboard-ecommerce.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/plugins/charts/chart-apex.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/plugins/extensions/ext-component-toastr.css')}}">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/' . getFolder() .'/custom-style.css')}}">
 
     @yield('style')
 

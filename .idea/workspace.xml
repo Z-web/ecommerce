@@ -20,28 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f610b2cc-b2b7-4103-b81c-cdbcec339549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/alerts/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/alerts/success.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/custom-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ecommerce2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laravellocalization.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/custom-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +169,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1l7BTYn6oY1g4v5FjpNODdIKoEH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/dashboard/includes/alerts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -191,11 +196,11 @@
       <recent name="C:\wamp64\www\ecommerce2\public\assets\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce2\resources\views\dashboard\includes\alerts" />
-      <recent name="C:\wamp64\www\ecommerce2\resources\views\layouts" />
-      <recent name="C:\wamp64\www\ecommerce2\resources\views\dashboard\auth" />
-      <recent name="C:\wamp64\www\ecommerce2\resources\views\dashboard" />
-      <recent name="C:\wamp64\www\ecommerce2\resources\views\dashboard\includes" />
+      <recent name="C:\wamp64\www\ecommerce2\resources\lang\en" />
+      <recent name="C:\wamp64\www\ecommerce2\resources\lang\ar\admin" />
+      <recent name="C:\wamp64\www\ecommerce2\public\assets\admin\css-rtl" />
+      <recent name="C:\wamp64\www\ecommerce2\app\Helpers" />
+      <recent name="C:\wamp64\www\ecommerce2\resources\lang" />
     </key>
   </component>
   <component name="RunManager">
@@ -215,7 +220,7 @@
       <workItem from="1606938258494" duration="4443000" />
       <workItem from="1607025984223" duration="8249000" />
       <workItem from="1607094174224" duration="11708000" />
-      <workItem from="1607170524116" duration="4079000" />
+      <workItem from="1607170524116" duration="10543000" />
     </task>
     <servers />
   </component>
@@ -233,6 +238,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607030270353">
